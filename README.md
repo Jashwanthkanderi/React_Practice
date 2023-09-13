@@ -31,17 +31,14 @@ We encourage contributions from the community to make this repository even more 
 **Getting Started:**
 
 1. Clone this repository to your local machine.
-2. Explore the tutorials and revision notes in the [Docs](docs) directory.
-3. Try out the sample projects in the [Projects](projects) directory.
+2. Explore the tutorials and revision notes in the [Docs](docs) directory.(will be added)
+3. Try out the sample projects in the [Projects](projects) directory.(will be added)
 4. Contribute and share your knowledge with the community!
 
 **Stay Connected:**
 
-Follow us on Twitter [@YourGitHubUsername](https://twitter.com/YourGitHubUsername) for updates and announcements related to this repository.
+Follow us on Twitter [@Jashwanth Kanderi](https://www.linkedin.com/in/jashwanth-kanderi) for updates and announcements related to this repository.
 
-**License:**
-
-This repository is open-source and available under the [MIT License](link_to_license_file.md). Feel free to use, modify, and share the content as per the terms of the license.
 
 We hope you find this repository helpful in your React learning journey. Happy coding! 🚀
 
