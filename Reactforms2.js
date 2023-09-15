@@ -73,6 +73,17 @@ export default function App() {
                 />
 
                //--------------------------------------------------------------------------------
+                {/* Checkbox for newsletter subscription */}
+                <div className="form--marketing">
+                    <input
+                        id="okayToEmail"
+                        type="checkbox"
+                        name="joinedNewsletter"
+                        onChange={handleChange}
+                        checked={formData.joinedNewsletter}
+                    />
+                    <label htmlFor="okayToEmail">I want to join the newsletter</label>
+                </div>
 
                 {/* Submit button */}
                 <button 
