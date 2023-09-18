@@ -74,18 +74,27 @@ A real-life example of useState is a to-do list. The to-do list needs to track t
 ```javascript
 import React, { useState } from 'react';
 
+// This component renders a to-do list.
 function TodoList() {
+  // This state variable tracks the list of to-do items.
   const [todos, setTodos] = useState([
     { text: 'Learn React', completed: false },
     { text: 'Build a to-do list', completed: false },
   ]);
 
+  // This function handles toggling the completed state of a to-do item.
   function handleToggleTodo(index) {
+    // Create a copy of the to-do list.
     const newTodos = [...todos];
+
+    // Toggle the completed state of the to-do item at the given index.
     newTodos[index].completed = !newTodos[index].completed;
+
+    // Update the state with the new to-do list.
     setTodos(newTodos);
   }
 
+  // This function renders the to-do list.
   return (
     <ul>
       {todos.map((todo, index) => (
