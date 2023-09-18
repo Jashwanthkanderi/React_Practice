@@ -1,4 +1,3 @@
-
 # React Props vs. States
 
 React components use two fundamental concepts for managing and passing data: props and states. Understanding when and how to use each is crucial for building efficient and maintainable React applications.
@@ -21,7 +20,7 @@ function ParentComponent() {
 function Button({ text }) {
   return <button>{text}</button>;
 }
-```
+
 
 In this example, the `text` prop is passed from the `ParentComponent` to the `Button` component, enabling the `Button` component to display the button text.
 
@@ -33,7 +32,7 @@ States, on the other hand, are used to manage data that is specific to a compone
 
 States are typically used for managing data that belongs to the component itself and needs to be updated over time. For example:
 
-```javascript
+javascript
 function CounterComponent() {
   const [count, setCount] = useState(0);
 
@@ -48,7 +47,7 @@ function CounterComponent() {
     </div>
   );
 }
-```
+
 
 In this example, the `CounterComponent` uses the `useState` hook to manage its own state (`count`). When the "Increment" button is clicked, the `handleClick` function updates the state, triggering a re-render of the component.
 
@@ -66,3 +65,5 @@ Here are some rules of thumb for when to use props vs. states:
 
 By following these guidelines, you can write more efficient and maintainable React applications.
 
+
+Once you have created a correctly formatted Markdown file, you can upload it to GitHub and view it in the preview window. If you are still having trouble getting a correct view, you can try using a Markdown preview tool, such as Markdown Preview Plus for Chrome.
