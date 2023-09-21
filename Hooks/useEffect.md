@@ -1,4 +1,4 @@
-Certainly! Here's a comprehensive guide on the React `useEffect` hook in Markdown format for your GitHub repository. This guide covers the `useEffect` hook, provides code examples, and includes video resources:
+Here's a comprehensive guide on the React `useEffect` hook . This guide covers the `useEffect` hook, provides code examples, and includes video resources:
 
 ```markdown
 # React useEffect Hook Tutorial
